@@ -28,7 +28,7 @@ pipeline {
 
         stage('Tag Docker Image') {
             steps {
-                bat 'docker tag my-app ahmed9350/my-app'
+                bat 'docker tag my-app omerHashmi123/my-app'
             }
         }   
 
